@@ -7,6 +7,8 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
+        multiDexEnabled true
+
         applicationId "com.example.fileprovidercrashapi17"
         minSdkVersion 17
         targetSdkVersion 28
