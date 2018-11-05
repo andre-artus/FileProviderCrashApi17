@@ -1,6 +1,6 @@
 package com.example.fileprovidercrashapi17
 
-import android.app.Application
+import androidx.multidex.MultiDexApplication
 
 @Suppress("unused")
-class MainApplication : Application()
+class MainApplication : MultiDexApplication()
